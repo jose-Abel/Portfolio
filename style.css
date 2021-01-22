@@ -214,12 +214,12 @@ a {
 }
 
 .line-1 {
-  width: 21.5rem;
+  width: 19rem;
   height: 4.7rem;
   border-bottom: 2px solid orangered;
   position: absolute;
-  top: 19rem;
-  right: 9.3rem;
+  top: 17.6rem;
+  right: 11rem;
   transform: rotate(115deg);
   z-index: 3;
 }
@@ -442,13 +442,14 @@ a {
   color: #FFFFFF;
   background: #1C1A19;
   display: flex;
+  overflow: hidden;
 }
 
 .about-section-text-box {
   margin-top: 10rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 50%;
   padding: 10rem 0 2rem 15rem;
   flex-direction: column;
@@ -499,11 +500,107 @@ a {
 .about-section-figures {
   position: relative;
   width: 50%;
-  overflow: hidden;
+}
+
+.about-vector23 {
+  width: 17rem;
+  height: 17rem;
+  position: absolute;
+  right: 22rem;
+  bottom: 33rem;
+  z-index: 4;
+}
+
+.about-vector24 {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  right: 16.5rem;
+  bottom: 31rem;
+  z-index: 3;
+}
+
+.about-vector25 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  right: 19.6rem;
+  bottom: 35rem;
+  z-index: 3;
+}
+
+.about-vector25-1 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  right: 16.5rem;
+  bottom: 31.6rem;
+  z-index: 3;
+}
+
+.about-vector25-2 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  right: 13.5rem;
+  bottom: 28rem;
+  z-index: 3;
+}
+
+.about-vector25-3 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  right: 9rem;
+  bottom: 31.5rem;
+  z-index: 3;
+}
+
+.about-vector25-4 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  right: 24rem;
+  bottom: 31rem;
+  z-index: 3;
+}
+
+.about-vector25-5 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  right: 21rem;
+  bottom: 27.7rem;
+  z-index: 3;
+}
+
+.about-vector26 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  right: 10rem;
+  bottom: 35rem;
+  z-index: 3;
+}
+
+.about-hiding-line {
+  width: 40rem;
+  height: 40rem;
+  border-bottom: 10rem solid #1C1A19;
+  position: absolute;
+  transform: rotate(38deg);
+  bottom: 37rem;
+  left: 40rem;
+  z-index: 3;
 }
 
 .about-vector28 {
-
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: 25.4rem;
+  bottom: 20rem;
+  z-index: 1;
 }
 
 .about-vector29 {
@@ -527,9 +624,22 @@ a {
 
 
 .about-vector33 {
-
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 15rem;
+  bottom: 10rem;
 }
 
 .about-vector34 {
 
+}
+
+.about-vector46 {
+  width: 45rem;
+  height: 30rem;
+  position: absolute;
+  left: 18rem;
+  top: 13.2rem;
+  z-index: 2;
 }
