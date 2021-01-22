@@ -21,6 +21,8 @@ a {
   text-decoration: none;
 }
 
+/* --------------------------NAVBAR--------------------------------- */
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -53,6 +55,9 @@ a {
   color: white;
 }
 
+/* -------------------------HERO SECTION--------------------------------- */
+
+
 .hero-section {
   background: #1C1A19;
   height: 95vh;
@@ -69,7 +74,6 @@ a {
 }
 
 .social-media-icons {
-
   display: flex;
   flex-direction: column;
   font-size: 3.2rem;
@@ -425,4 +429,107 @@ a {
   right: -7.1rem;
   transform: rotate(10deg);
   z-index: 4;
+}
+
+/* --------------------------RECENT WORKS SECTION-------------------------- */
+
+
+
+/* --------------------------ABOUT SECTION--------------------------------- */
+
+
+.about-me-section {
+  color: #FFFFFF;
+  background: #1C1A19;
+  display: flex;
+}
+
+.about-section-text-box {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding: 10rem 0 2rem 15rem;
+  flex-direction: column;
+}
+
+.about-text-h1 {
+  color: #f55800;
+  font-size: 7.2rem;
+  margin-bottom: 2rem;
+}
+
+.about-text-p {
+  font-size: 2rem;
+  line-height: 2;
+  margin-bottom: 5rem;
+}
+
+.get-resume-btn {
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 22px;
+   font-weight: 100;
+   padding: 15px;
+   border-color-hover: ;
+   border-style-hover: solid;
+   border-width-hover: 1;
+   background-color: #F55800;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.get-resume-btn:hover {
+   background: #FF9152;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   text-decoration: none;
+}
+
+.about-section-figures {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+}
+
+.about-vector28 {
+
+}
+
+.about-vector29 {
+
+}
+
+
+.about-vector30 {
+
+}
+
+
+.about-vector31 {
+
+}
+
+
+.about-vector32 {
+
+}
+
+
+.about-vector33 {
+
+}
+
+.about-vector34 {
+
 }
