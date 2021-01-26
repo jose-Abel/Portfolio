@@ -500,6 +500,7 @@ a {
 .about-section-figures {
   position: relative;
   width: 50%;
+  transform: translateX(6rem);
 }
 
 .about-vector23 {
@@ -509,6 +510,8 @@ a {
   right: 22rem;
   bottom: 33rem;
   z-index: 4;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
 }
 
 .about-vector24 {
@@ -601,6 +604,8 @@ a {
   left: 25.4rem;
   bottom: 20rem;
   z-index: 1;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
 }
 
 .about-vector29 {
@@ -629,11 +634,21 @@ a {
   position: absolute;
   left: 15rem;
   bottom: 10rem;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
 }
 
 .about-vector34 {
-
+  width: 45rem;
+  height: 30rem;
+  position: absolute;
+  right: 25rem;
+  top: 21rem;
+  z-index: -1;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
 }
+
 
 .about-vector46 {
   width: 45rem;
@@ -642,4 +657,17 @@ a {
   left: 18rem;
   top: 13.2rem;
   z-index: 2;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
+}
+
+.about-vector47 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  right: 6rem;
+  top: 27rem;
+  z-index: 2;
+  stroke: rgb(0,0,0);
+  stroke-width: 1px;
 }
