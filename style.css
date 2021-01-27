@@ -376,7 +376,7 @@ a {
   position: absolute;
   top: 1rem;
   right: 5.2rem;
-  z-index: 3;
+  z-index: 10;
 }
 
 .vector21-2 {
@@ -503,15 +503,37 @@ a {
   transform: translateX(6rem);
 }
 
+.about-vector7 {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 63.5rem;
+  bottom: 15rem;
+  z-index: 1;
+  stroke: rgb(0,0,0);
+  stroke-width: 1px;
+}
+
 .about-vector23 {
   width: 17rem;
   height: 17rem;
   position: absolute;
   right: 22rem;
   bottom: 33rem;
-  z-index: 4;
+  z-index: 6;
   stroke: rgb(0,0,0);
   stroke-width: 0.2px;
+}
+
+.about-vector23-2 {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  left: 3rem;
+  bottom: 25rem;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
+  z-index: 3;
 }
 
 .about-vector24 {
@@ -520,7 +542,7 @@ a {
   position: absolute;
   right: 16.5rem;
   bottom: 31rem;
-  z-index: 3;
+  z-index: 5;
 }
 
 .about-vector25 {
@@ -529,7 +551,7 @@ a {
   position: absolute;
   right: 19.6rem;
   bottom: 35rem;
-  z-index: 3;
+  z-index: 6;
 }
 
 .about-vector25-1 {
@@ -538,7 +560,7 @@ a {
   position: absolute;
   right: 16.5rem;
   bottom: 31.6rem;
-  z-index: 3;
+  z-index: 6;
 }
 
 .about-vector25-2 {
@@ -547,7 +569,7 @@ a {
   position: absolute;
   right: 13.5rem;
   bottom: 28rem;
-  z-index: 3;
+  z-index: 6;
 }
 
 .about-vector25-3 {
@@ -556,7 +578,7 @@ a {
   position: absolute;
   right: 9rem;
   bottom: 31.5rem;
-  z-index: 3;
+  z-index: 6;
 }
 
 .about-vector25-4 {
@@ -565,7 +587,7 @@ a {
   position: absolute;
   right: 24rem;
   bottom: 31rem;
-  z-index: 3;
+  z-index: 6;
 }
 
 .about-vector25-5 {
@@ -574,7 +596,16 @@ a {
   position: absolute;
   right: 21rem;
   bottom: 27.7rem;
-  z-index: 3;
+  z-index: 6;
+}
+
+.about-vector25-6 {
+  width: 4.2rem;
+  height: 4.2rem;
+  position: absolute;
+  right: 18rem;
+  bottom: 25rem;
+  z-index: 6;
 }
 
 .about-vector26 {
@@ -583,7 +614,7 @@ a {
   position: absolute;
   right: 10rem;
   bottom: 35rem;
-  z-index: 3;
+  z-index: 6;
 }
 
 .about-hiding-line {
@@ -594,7 +625,7 @@ a {
   transform: rotate(38deg);
   bottom: 37rem;
   left: 40rem;
-  z-index: 3;
+  z-index: 6;
 }
 
 .about-vector28 {
@@ -606,25 +637,52 @@ a {
   z-index: 1;
   stroke: rgb(0,0,0);
   stroke-width: 0.2px;
+  z-index: 5;
 }
 
 .about-vector29 {
-
+  width: 29rem;
+  height: 29rem;
+  position: absolute;
+  left: 7rem;
+  bottom: 11rem;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
+  z-index: 4;
 }
 
 
 .about-vector30 {
-
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 7rem;
+  bottom: 25rem;
+  z-index: 3;
 }
 
 
 .about-vector31 {
-
+  width: 17rem;
+  height: 17rem;
+  position: absolute;
+  left: 11rem;
+  bottom: 11rem;
+  transform: rotate(-3deg);
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
 }
 
 
 .about-vector32 {
-
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  right: 52rem;
+  bottom: 24.8rem;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
+  z-index: 2;
 }
 
 
@@ -636,15 +694,59 @@ a {
   bottom: 10rem;
   stroke: rgb(0,0,0);
   stroke-width: 0.2px;
+  z-index: 4;
 }
 
 .about-vector34 {
   width: 45rem;
   height: 30rem;
   position: absolute;
-  right: 25rem;
-  top: 21rem;
+  right: 26rem;
+  top: 20rem;
   z-index: -1;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
+}
+
+.about-vector35 {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  left: 6.2rem;
+  bottom: 17.7rem;
+  transform: rotate(-1deg);
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
+  z-index: 1;
+}
+
+.about-vector36 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 4.6rem;
+  bottom: 16.2rem;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
+}
+
+.about-vector37 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 1.2rem;
+  bottom: 12.5rem;
+  stroke: rgb(0,0,0);
+  stroke-width: 0.2px;
+  z-index: -1;
+}
+
+.about-vector38 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 2rem;
+  bottom: 9.5rem;
   stroke: rgb(0,0,0);
   stroke-width: 0.2px;
 }
@@ -659,6 +761,7 @@ a {
   z-index: 2;
   stroke: rgb(0,0,0);
   stroke-width: 0.2px;
+  z-index: 5;
 }
 
 .about-vector47 {
@@ -668,6 +771,17 @@ a {
   right: 6rem;
   top: 27rem;
   z-index: 2;
+  stroke: rgb(0,0,0);
+  stroke-width: 1px;
+  z-index: 5;
+}
+
+.about-vector48 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  right: 60rem;
+  bottom: 11.5rem;
   stroke: rgb(0,0,0);
   stroke-width: 1px;
 }
