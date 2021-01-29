@@ -433,6 +433,89 @@ a {
 
 /* --------------------------RECENT WORKS SECTION-------------------------- */
 
+.recent-works {
+  padding: 5rem;
+}
+
+.recent-works-title {
+   width: 100%;
+   text-align: start;
+   border-bottom: 1px solid #000;
+   line-height: 0.1em;
+   margin: 6rem 0 10rem;
+}
+
+.recent-works-title span {
+    background:#fff;
+    padding:0 1rem;
+    font-size: 3rem;
+}
+
+.main-work-box {
+  display: flex;
+}
+
+.main-work-image {
+  width: 50%;
+}
+
+.main-work-text-box {
+  width: 50%;
+  font-size: 2rem;
+  line-height: 2;
+  margin-left: 5rem;
+}
+
+.main-work-text-skills-box {
+  margin: 2.5rem 0;
+}
+
+.skill {
+  border: 1px solid black;
+  padding: 1.5rem 2.5rem;
+  margin-right: 1rem;
+}
+
+.see-project-button {
+   -webkit-border-radius: 1.2rem;
+   -moz-border-radius: 1.2rem;
+   border-radius: 1.2rem;
+   color: #FFAE00;
+   font-family: Brush Script MT;
+   font-size: 2.3rem;
+   font-weight: 100;
+   padding: 1rem 2rem;
+   border-color-hover: ;
+   border-style-hover: solid;
+   border-width-hover: 1;
+   background-color: #4E443E;
+   border: solid #FFFFFF 0.1rem;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.see-project-button:hover {
+   background: #74665D;
+   -webkit-border-radius: 1.2rem;
+   -moz-border-radius: 1.2rem;
+   border-radius: 1.2rem;
+   text-decoration: none;
+}
+
+.recent-works-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.recent-works-col {
+
+}
+
+
 
 
 /* --------------------------ABOUT SECTION--------------------------------- */
