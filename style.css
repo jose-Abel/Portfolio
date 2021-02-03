@@ -508,7 +508,8 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 3rem;
+  grid-gap: 5rem;
+  margin: 10rem 0;
 }
 
 .recent-works-col {
@@ -538,26 +539,21 @@ a {
 .recent-works-col-4 {
   grid-row: 2 / 3;
   grid-column: 1 / 2;
-  background-image: url("");
+  background-image: url("images/telegram-bot.png");
 }
 
 .recent-works-col-5 {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  background-image: url("");
+  background-image: url("images/mapty-entertainment-tracker.png");
 }
 
 .recent-works-col-6 {
   grid-row: 2 / 3;
   grid-column: 3 / 4;
-  background-image: url("");
+  background-image: url("images/conference_website.png");
 }
 
-.recent-works-col-img {
-  width: 20rem;
-  height: 20rem;
-  background-image: url("");
-}
 
 
 
