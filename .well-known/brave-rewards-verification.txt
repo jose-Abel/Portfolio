@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: jose-abel-portfolio-website.netlify.app
+Token: ca65d95f48f8a4300d092535003a0493bd9d7ff9f02619bf4d4f0a2e8aefe59d
